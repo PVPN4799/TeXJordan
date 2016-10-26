@@ -1,7 +1,12 @@
+% The Jordan LaTeX package.
+% Has only one command: \jordan.
+
 \ProvidesPackage{jordan}
 
 \RequirePackage{graphicx}
+\RequirePackage{scalerel}
 
-\newcommand\jordan{\includegraphics[scale=0.05]{img/jordan.pdf}}
+\def\jordan{\scalerel*{\includegraphics{img/jordan.png}}{b}}
+\def\jordan{\scalerel*{\includegraphics{img/jordan.png}}{g}}
 
 \endinput

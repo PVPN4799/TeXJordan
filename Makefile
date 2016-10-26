@@ -1,4 +1,4 @@
-TEXFILE = test
+TEXFILE=jordan
 
 .PHONY: all
 all: $(TEXFILE).pdf
